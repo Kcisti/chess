@@ -5,14 +5,14 @@ function insertImage() {
 
         if (image.innerText.length !== 0) {
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
-                image.innerHTML = `${image.innerText} <img class='allimg allpawn' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `${image.innerText} <img class='allimg allpawn' src="icon/${image.innerText}.png" alt="">`
                 image.style.cursor = 'pointer'
 
             }
 
             else {
 
-                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `${image.innerText} <img class='allimg' src="icon/${image.innerText}.png" alt="">`
                 image.style.cursor = 'pointer'
             }
         }
@@ -76,7 +76,7 @@ function reddish() {
                     a = aside + aup
 
                     if (a % 2 == 0 && pinkColor == greenColor) {
-                        i2.style.backgroundColor = 'rgb(240, 201, 150)'
+                        i2.style.backgroundColor = 'rgb(zz)'
                     }
                     if (a % 2 !== 0 && pinkColor == greenColor) {
                         i2.style.backgroundColor = 'rgb(100, 75, 43)'
